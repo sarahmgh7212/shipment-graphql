@@ -1,0 +1,48 @@
+.tracking-container {
+  border: 1px solid #ced4da;
+  border-radius: 7px;
+  padding: 0 1.5rem;
+  margin-top: 1.5rem;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.shipment-history-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  align-items: center;
+}
+.shipment-history-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: flex-start;
+  row-gap: 0.5rem;
+  width: 100%;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 1rem;
+}
+.shipment-history-list p:nth-child(-n + 2) {
+  font-weight: 500;
+}
+.shipment-history-list p:nth-last-child(-n + 2) {
+  color: #868e96;
+}
+.flex-end {
+  justify-self: flex-end;
+}
+.success-icon-wrapper,
+.info-icon-wrapper,
+.warning-icon-wrapper {
+  width: 20px;
+}
+.success-icon-wrapper svg {
+  stroke: #0ca678;
+}
+.info-icon-wrapper svg {
+  stroke: #fcc419;
+}
+.warning-icon-wrapper svg {
+  stroke: #d9480f;
+}

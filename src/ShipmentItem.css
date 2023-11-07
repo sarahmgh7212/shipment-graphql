@@ -1,0 +1,25 @@
+.shipment-list {
+  list-style: none;
+  border-top: 1px solid #adb5bd;
+  padding: 1rem;
+  cursor: pointer;
+}
+.shipment-list-item {
+  display: grid;
+  grid-template-columns: 13rem auto;
+  grid-template-rows: auto;
+  align-items: center;
+}
+.shipment-status {
+  height: 30px;
+  color: #099268;
+  border: 1px solid #099268;
+  width: 6rem;
+  border-radius: 6px;
+  font-weight: 500;
+  grid-column: 2;
+  grid-row: 1/-1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
