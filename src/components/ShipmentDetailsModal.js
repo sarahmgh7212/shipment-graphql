@@ -3,7 +3,7 @@ import ShipmentHistory from "./ShipmentHistory";
 import "./ShipmentDetailsModal.css";
 import "./ShipmentItem.css";
 import { useQuery, gql } from "@apollo/client";
-import { getDate, getTime } from "./helper";
+import { getDate, getTime } from "../helper";
 
 const TRACKINGEVENT_QUERY = gql`
   query GetTrackingEvent($trackingId: String!) {

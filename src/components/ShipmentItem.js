@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShipmentItem.css";
-import { getDate } from "./helper";
+import { getDate } from "../helper";
 
 function ShipmentItem({ onClick, shipment }) {
   const { trackingId, lastUpdate, status } = shipment;

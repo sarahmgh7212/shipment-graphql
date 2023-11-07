@@ -1,10 +1,10 @@
 import React from "react";
-import { getDate, getTime } from "./helper";
+import { getDate, getTime } from "../helper";
 import "./ShipmentHistory.css";
 import "./ShipmentDetailsModal.css";
-import { ReactComponent as SuccessCircle } from "./assets/success-circle.svg";
-import { ReactComponent as InfoCircle } from "./assets/info-circle.svg";
-import { ReactComponent as WarningCircle } from "./assets/warning-circle.svg";
+import { ReactComponent as SuccessCircle } from "../assets/success-circle.svg";
+import { ReactComponent as InfoCircle } from "../assets/info-circle.svg";
+import { ReactComponent as WarningCircle } from "../assets/warning-circle.svg";
 
 function ShipmentHistory({ trackingEventHistory }) {
   return (
